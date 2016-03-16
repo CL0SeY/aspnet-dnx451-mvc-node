@@ -1,4 +1,4 @@
-FROM cl0sey/aspnet-coreclr-mvc
+FROM cl0sey/aspnet-dnx451-mvc
 
 RUN apt-get update \ 
 	&& apt-get install -y \
