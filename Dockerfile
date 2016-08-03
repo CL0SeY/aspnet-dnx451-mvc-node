@@ -1,4 +1,4 @@
-FROM cl0sey/aspnet-dnx451-mvc
+FROM cl0sey/aspnet-dnx451-mvc:mono-4.2.3.4
 
 RUN apt-get update \ 
 	&& apt-get install -y \
